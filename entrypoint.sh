@@ -27,8 +27,8 @@ while getopts "n:c:o:t:" opt; do
 done
 shift $((OPTIND -1))
 
-echo "::debug ${config}"
-echo "::debug ${tag}"
+echo "::warning ${config}"
+echo "::warning ${tag}"
 
 if [ -f "${config}/config.yml" ] && [ -f "${config}/CHANGELOG.tpl.md" ]; then
   echo "::debug ::git-chlog: -c '${config}'"
