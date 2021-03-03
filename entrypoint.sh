@@ -27,6 +27,8 @@ while getopts "n:c:o:t:" opt; do
 done
 shift $((OPTIND -1))
 
+echo "::warning ::$(ls -al)"
+echo "::warning ::config - ${config}"
 echo "::warning ::config - ${config}"
 echo "::warning ::tag - ${tag}"
 
