@@ -1,4 +1,4 @@
-name: 'Generate changelog with git-chglog'
+name: 'automate-changelog-generation'
 description: 'Generate a changelog using conventional commits using the git-chlog tool'
 branding:
   icon: 'calendar'  
